@@ -14,7 +14,7 @@ I'll let the game speak for itself whenever possible, so this walkthrough might 
 
 I designed this game as a self-assessment for French students nearing the end of a unit on transportation, so before beginning the game proper, I started with some basic instructions. I try to give some background for how the game works, what it reviews, and what students should do with it. I'm using the SugarCube [Twine format](https://twinery.org/wiki/twine2:how_to_choose_a_story_format) because when I was looking for walkthroughs on some of the advanced features I used, they used that same format. SugarCube adds options to save and load your progress in the game, which kind of undercuts my suggestion to play through even if students make mistakes, so I would probably do things differently if I were to start from scratch. Plus, I think the default format for Twine looks nicer. :) 
 
-From here, click on "Let's get started." 
+From here, **click on "Let's get started."**
 
 ### In front of the train station
 
@@ -24,7 +24,7 @@ I originally planned to use a lot more French in the game so that students would
 
 One invisible thing that happens in this location is that I set up certain *objects*, which you can read more about [here](https://twinery.org/forum/discussion/1516). This is one of the more advanced things I do in this game, so I wouldn't recommend it to someone on their first Twine game unless they're feeling pretty confident or patient. In short, I tell the game that the player does not have a ticket, that the ticket is not stamped, and that it does not have a destination. These things will change throughout the game (spoiler alert, these are the things you need to do to win the game), but setting them up here is important. I also set the time to 12:45pm&mdash;this will also change at certain points throughout the game. 
 
-From here, click on "Go inside!"
+From here, **click on "Go inside!"**
 
 ### Main hall
 
@@ -36,7 +36,7 @@ The clock and the sign are also important. The clock displays whatever time it i
 
 At this point in the game, there's nothing stopping you from going to the platforms, picking one at random, and boarding the first train that comes by. Why? Because that's just how it works in France. No one checks your ticket before boarding, but if you're caught by a *contrôleur* without a ticket, with an incorrect ticket, or with an unstamped ticket you'll get in trouble. So, the game is assessing the player in an authentic way. However, as I mentioned earlier, the game **knows** that you don't have a ticket (and that your non-existent ticket has no destination and is not stamped), and you'd better believe that if you try to get on a train without going through the right steps, you're going to get  caught (this doesn't always happen in real life, but it does happen in M. Greenhalgh's French class). 
 
-So, let's take the proper steps. Click on "les guichets."
+So, let's take the proper steps. **Click on "les guichets."**
 
 ## Buying a ticket
 
@@ -44,7 +44,7 @@ So, let's take the proper steps. Click on "les guichets."
 
 This is just a small page that gives students the chance to walk back out to the main hall if this isn't where they want to be after all. 
 
-From here, click on "Walk up to employee"
+From here, **click on "Walk up to employee"**
 
 ### Talking to the employee
 
@@ -52,37 +52,37 @@ I'm really proud of the fact that I worked an audio component into this game-bas
 
 The first thing I did here was to activate a feature on my Mac that allows users to convert any block of text into recorded speech (and, of course, make sure that the French "voice" was activated). Then, I wrote some dialogue that I wanted students to listen and respond to, converted them into iTunes tracks, converted those into mp3s, hosted them on my website, and then used &lt;audio&gt; HTML tags to embed the recorded dialogue into the game. I could have also recorded myself, but even though my voice is less robotic than a computer one, its pronunciation is (mostly) better, and I also didn't have to worry about background noise, etc. Our friend behind the counter is saying hello and asking us how we are.
 
-Click on "Je voudrais un billet, s'il vous plaît." 
+**Click on "Je voudrais un billet, s'il vous plaît."**
 
 This asks for a ticket politely (that is, using formal language). The other choices include demanding a ticket rudely (that is, using commanding language instead of requesting language and using informal language instead of formal language), or asking the man how he is doing, either informally or formally. Asking the man how he's doing doesn't make a difference, but using informal or rude language starts to make him progressively more frustrated, which changes the way that he responds to you in future interactions (using the same kind of *objects* I use to govern time and tickets). I think including this is important in my assessment, since it reminds my students that successfully using French is more than just vocabulary and grammar. It's also a question of culture and social cues, and they always need to remember that sort of thing. Our friend then asks us for our destination. 
 
-Click on "Je voudrais aller à Lyon s'il vous plaît." 
+**Click on "Je voudrais aller à Lyon s'il vous plaît."**
 
 These choices again distinguish between formal and informal language, and the man behind the counter again gets offended if we use informal language with him. Either way, though, he asks a clarifying question: Is our destination the *Gare de Lyon*? Or is it *Lyon&mdash;Part-Dieu*? This is based on an anecdote I heard from people I knew when I was living in Dijon, though I can't say for sure whether it's true. The *Gare de Lyon* is the name of a train station in Paris, but because it has the name *Lyon* in it, there are people who would buy tickets for there when they were trying to get to the city of Lyon, which is in a totally different direction. The game provides you with opportunities to realize you've made a mistake and come buy the correct ticket if you choose the wrong one, but it will slow you down. Also, as much as this makes a great story, I wouldn't actually assess this knowledge without at least mentioning it in class. 
 
-Click on "Je veux dire, Lyon&mdash;Part-Dieu. 
+Click on "Je veux dire, Lyon—Part-Dieu. 
 
 Here you get the ticket. The description of the man at this point depends a lot on how much you've offended him. Behind the scenes, the game is recording that you now have a ticket and what the destination is. It is also advancing the clock: Every time you order a ticket, it takes you 15 minutes. 
 
-Click on "Leave"
+**Click on "Leave"**
 
 ## Heading to the platform
 
 You're now back in the main hall of the train station, with all the same options that were there before. If you check the clock, you'll see that time has advanced. You can also check the sign at this point to compare the destination on your ticket (which will appear if you have a ticket) with the list of departures. That tells you that you need to go to Platform I. It also tells you the departure time for your train (if I had thought about it, I would have had the departure time listed on your ticket appear for reference, but I didn't). 
 
-From here, click on "les quais"
+From here, **click on "les quais"**
 
 ## Underground passage
 
 I was tickled to find that Google Maps also has a Street View of the underground passage of the actual Dijon train station, so I put it in here. As I mentioned before, I think it adds a lot to the assessment to be able to see authentic media like this. It's also nice that you get a view of the ticket stamping machines that students need to use to win the game. You can also see some stores down here, as well as the exit at the other end of the passage. I wrote the exit (and the park across the street) into the game, complete with making the time advance if you choose to goof around outside instead of go straight to your platform (you can still visit there and make it back in time for your train, though!). I would have liked to add the stores into the game, but ran out of time. It would have been neat to use the objects function in Twine to add a money element into the game, where students would have to provide the correct bills based on the price that the man behind the ticket counter "said" to them. Then, with any leftover money, students could go into one of these stores and place another order... as long as they had the correct amount! Maybe in the future, though. 
 
-From here, click on "ticket stamping machines." 
+From here, **click on "ticket stamping machines."**
 
 ## Ticket stamping machine
 
 If you have a ticket, visiting this location will stamp it for you. If you don't have a ticket, the text will say something about you admiring the machine instead. If you already have a stamped ticket, it will tell you to stop messing around and that other people are in line. This is yet another subtle assessment built into the game. When you buy a train ticket in France, you buy it for a particular route, not (usually) for a particular time. So, you can typically hop on any train that matches the route on your ticket. This has the downside that someone could cheat, using the same ticket over and over again for the same route until it expires; so, before using a ticket, you're supposed to date-stamp it, which shows when you actually used the ticket. As above, you can hop on a train without doing this (I've accidentally done so), but if you get caught, you'll get fined. So, there are no explicit instructions for students to take this step&mdash;they need to remember from our lessons that this is something they have to do. 
 
-From here, click "Leave machine." Then, click on "Go up the stairs to Voie I / Voie J"
+From here, **click "Leave machine."** Then, **click on "Go up the stairs to Voie I / Voie J"**
 
 ## Platform I
 
