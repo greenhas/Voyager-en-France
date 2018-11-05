@@ -4,7 +4,7 @@ This is a walkthrough of a sample Twine game that I put together for 813 student
 
 This is not a perfect example for CEP 813 students, but I hope it will be useful! It took me about 30 minutes to sketch out some of the basic aspects of the game (though I've been thinking about designing a game like this for years, so that's probably a low estimate). Actually implementing the game took me somewhere between 4-6 hours, but that's largely because I insisted on adding some of those advanced features, which took some time to learn. Someone sticking to the basics would cut a lot of time off of that estimate. 
 
-To play through the game, visit this link, and download the file by right-clicking it and clicking "Save As." Then, double-click on the file to open it in your browser and follow along with my walkthrough. You can also open the file in Twine if you want to see more of what's "under the hood." 
+To play through the game, visit [this link](https://raw.githubusercontent.com/greenhas/Voyager-en-France/master/Voyager%20en%20France.html), and download the file by right-clicking it and clicking "Save As." Then, double-click on the file to open it in your browser and follow along with my walkthrough. You can also open the file in Twine if you want to see more of what's "under the hood." 
 
 I'll let the game speak for itself whenever possible, so this walkthrough might not make much sense without opening it up and playing through alongside it!
 
